@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(240, 66, 66);
+}
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+}
+.time{
+    margin: 70px 0px 60px 0px;
+    font-size: 70px;
+    color: rgb(255, 251, 0);
+}
+.clock{
+    margin: 50px 20px 50px 020px;
+    font-size:25px;
+    font-family:monospace,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 251, 0);;
+}
